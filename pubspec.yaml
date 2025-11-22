@@ -1,0 +1,49 @@
+name: easacc_task
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  flutter_bloc: ^9.1.1
+  google_sign_in: ^7.2.0
+  webview_flutter: ^4.13.0
+  permission_handler: ^12.0.1
+  network_info_plus: ^7.0.0
+  get_it: ^9.1.0
+  flutter_secure_storage: ^9.2.4
+  flutter_svg: ^2.2.3
+  equatable: ^2.0.7
+  flutter_bluetooth_serial: ^0.4.0
+  flutter_blue_plus: ^2.0.2
+  flutter_facebook_auth: ^7.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+        - asset: assets/fonts/Cairo-Regular.ttf
